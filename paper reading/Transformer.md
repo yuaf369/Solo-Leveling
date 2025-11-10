@@ -1,4 +1,7 @@
+[toc]
+
 ## <font style="color:rgb(25, 27, 31);">前言</font>
+
 论文链接：[https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
 
 <font style="color:rgb(15, 17, 21);">Transformer 提出一种</font>**<font style="color:rgb(15, 17, 21);">完全基于注意力机制</font>**<font style="color:rgb(15, 17, 21);">的序列转换模型，摒弃了传统的 RNN 和 CNN 结构，实现了更强的并行能力与更优的翻译效果。</font>
@@ -183,6 +186,11 @@ def transformer_forward(x, y):
 | <font style="color:rgb(15, 17, 21);">长距离依赖建模优</font> | <font style="color:rgb(15, 17, 21);">位置编码依赖先验假设</font> |
 | <font style="color:rgb(15, 17, 21);">模型可解释性较强</font> | <font style="color:rgb(15, 17, 21);">需要大量数据与算力</font> |
 
+参考链接：
+
+1. "[【超详细】【原理篇&实战篇】一文读懂Transformer-CSDN博客](https://blog.csdn.net/weixin_42475060/article/details/121101749)"
+2. [(38 条消息) 三万字最全解析！从零实现Transformer（小白必会版😃） - 知乎](https://zhuanlan.zhihu.com/p/648127076)
+3. [手撕Transformer！！从每一模块原理讲解到代码实现【超详细！】_手撕位置编码-CSDN博客](https://blog.csdn.net/xiaoh_7/article/details/140019530)
 
 
 
